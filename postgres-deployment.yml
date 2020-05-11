@@ -11,8 +11,7 @@ spec:
     spec:
       containers:
         - name: postgres
-          image: postgres:10.4
-          imagePullPolicy: "IfNotPresent"
+          image: berthyvargas/postgres:latest
           ports:
             - containerPort: 5432
           envFrom:
